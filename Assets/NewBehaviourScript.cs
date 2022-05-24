@@ -42,6 +42,40 @@ public class NewBehaviourScript : MonoBehaviour
         items.RemoveAt(0);
         Debug.Log("가지고 있는 아이템");
         Debug.Log(items[0]);
-        Debug.Log(items[1]);
+
+        //3.연산자
+        int exp = 1500;
+
+        exp = 1500 + 320;
+        exp = exp - 10;
+        level = exp/300;
+        strength = level * 3.1f;
+
+        Debug.Log("용사의 총 경험치는?");
+        Debug.Log(exp);
+        Debug.Log("용사의 레벨은?");
+        Debug.Log(level);
+        Debug.Log("용사의 힘은?");
+        Debug.Log(strength);
+
+        //4.키워드
+        //프로그래밍 언어를 구성하는 특별한 단어
+
+        //5.조건문
+        //6.반복문
+
+        //7.클래스
+        Player player = new Player();
+        player.id = 0;
+        player.name = "나검사";
+        player.title = "현명한";
+        player.strength = 2.4f;
+        player.weapon = "나무 지팡이";
+        Debug.Log(player.Talk());
+        Debug.Log(player.HasWeapon());
+
+        player.LevelUp();
+        Debug.Log(player.name + "의 레벨은 " + player.level + "입니다.");
+        Debug.Log(player.move());
     }
 }
