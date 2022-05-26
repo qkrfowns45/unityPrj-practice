@@ -351,6 +351,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Actor.cs"
 "Assets/LifeCycle.cs"
+"Assets/moveobj.cs"
 "Assets/NewBehaviourScript.cs"
 "Assets/Player.cs"
 -langversion:9.0
