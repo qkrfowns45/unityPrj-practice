@@ -354,6 +354,7 @@
 "Assets/moveobj.cs"
 "Assets/NewBehaviourScript.cs"
 "Assets/Player.cs"
+"Assets/RealMove.cs"
 -langversion:9.0
 
 /deterministic

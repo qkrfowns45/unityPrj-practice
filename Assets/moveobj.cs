@@ -42,6 +42,21 @@ public class moveobj : MonoBehaviour
 
         if(Input.GetButtonUp("Jump")){
             Debug.Log("점프!!");
-        }       
+        }
+
+        //횡이동
+        // if(Input.GetButton("Horizontal")){
+        //     Debug.Log("횡 이동 중..." 
+        //     + Input.GetAxis("Horizontal"));
+        // }
+        if(Input.GetButton("Horizontal")){
+            Debug.Log("횡 이동 중..." 
+            + Input.GetAxisRaw("Horizontal"));
+        }
+        //종이동
+        if(Input.GetButton("Vertical")){
+            Debug.Log("종 이동 중..." 
+            + Input.GetAxisRaw("Vertical"));
+        }        
     }
 }
