@@ -20,9 +20,9 @@ public class targettomove : MonoBehaviour
         // transform.position = Vector3.SmoothDamp(transform.position, target, ref velo, 0.1f);
 
         //3.Lerp
-        //transform.position = Vector3.Lerp(transform.position, target, 0.05f);
-
+        transform.position = Vector3.Lerp(transform.position, target, 0.05f);
+        
         //4.Slefp-구면 선형보간 호를 그리며 이동
-        transform.position = Vector3.Slerp(transform.position, target, 0.05f);
+        //transform.position = Vector3.Slerp(transform.position, target, 0.05f);
     }
 }
